@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  color: #777;
+  letter-spacing: 0.2rem;
+  line-height: 1.8;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url(/imgs/nature-1.webp);
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url(/imgs/nature-2.webp);
+  min-height: 25rem;
+}
+
+.bgimg-3 {
+  background-image: url(/imgs/nature-3.webp);
+  min-height: 25rem;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .border {
+  background-color: #111;
+  color: #fff;
+  padding: 1.4rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.8rem;
+}
+
+.text {
+  background-color: #fff;
+  text-align: justify;
+  padding: 2.5rem 4.5rem;
+}
+
+.justify {
+  background-color: #282e34;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #111;
+}
+/*# sourceMappingURL=style.css.map */
